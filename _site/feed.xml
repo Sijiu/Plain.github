@@ -7,6 +7,33 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>redis 入门</title>
+				<description>&lt;h4 id=&quot;1win下安装&quot;&gt;1、&lt;a href=&quot;https://jingyan.baidu.com/article/0f5fb099045b056d8334ea97.html&quot;&gt;win下安装&lt;/a&gt;&lt;/h4&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;修改密码：redis.windows-service.conf文件中，去掉requirepass前的注释“#” 后边加上自己的密码
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;2常用服务命令&quot;&gt;2、常用服务命令&lt;/h4&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;在安装路径redis下   
+卸载服务：redis-server --service-uninstall
+
+开启服务：redis-server --service-start
+
+停止服务：redis-server --service-stop
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;3密码验证&quot;&gt;3、密码验证&lt;/h4&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;启动服务以后： auth 自己的密码
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;4命令参考-redis中文---博客园&quot;&gt;4、&lt;a href=&quot;http://www.redis.cn/commands.html&quot;&gt;命令参考 redis中文&lt;/a&gt; 、  &lt;a href=&quot;http://www.cnblogs.com/mxh1099/p/5626149.html&quot;&gt;博客园&lt;/a&gt;&lt;/h4&gt;
+
+</description>
+				<pubDate>Sat, 25 Nov 2017 23:09:04 +0800</pubDate>
+				<link>http://localhost:4000/2017/11/redis-start</link>
+				<guid isPermaLink="true">http://localhost:4000/2017/11/redis-start</guid>
+			</item>
+		
+			<item>
 				<title>MarkDownPad Pro</title>
 				<description>&lt;table&gt;
   &lt;tbody&gt;
@@ -1759,19 +1786,6 @@ respective owners:&lt;/p&gt;
 				<pubDate>Sun, 22 Jun 2014 16:25:06 -0700</pubDate>
 				<link>http://localhost:4000/2014/06/Maecenas-feugiat-fringilla-nibh</link>
 				<guid isPermaLink="true">http://localhost:4000/2014/06/Maecenas-feugiat-fringilla-nibh</guid>
-			</item>
-		
-			<item>
-				<title>Cum sociis natoque penatibus</title>
-				<description>&lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus fermentum facilisis velit eu auctor. Maecenas tincidunt, leo tempor bibendum auctor, ligula lorem ultricies tellus, ac auctor lorem libero a sapien. Donec ac suscipit tellus. Quisque vitae placerat lorem. In ullamcorper malesuada risus, eget fringilla lacus dignissim at. Proin faucibus, nibh vel molestie scelerisque, lorem urna tempus lacus, id viverra odio dolor sit amet odio. In hendrerit, orci vel scelerisque luctus, arcu purus aliquet turpis, a bibendum nulla est et dui.&lt;/p&gt;
-
-&lt;p&gt;Praesent pellentesque posuere lectus eget condimentum. Ut vitae nisi diam. Quisque vitae ipsum magna. Aliquam pretium laoreet tortor quis volutpat. Donec congue, nisl nec consequat varius, enim enim consectetur felis, a viverra libero elit in ligula. Cras posuere ipsum vel mi scelerisque, eu interdum velit elementum. Duis eu posuere est. Ut vestibulum urna eu viverra fringilla. Aliquam tempus nisi eros, vitae posuere nulla fermentum in. Praesent et justo eros. Proin eleifend justo vel justo condimentum ullamcorper. Curabitur vel vehicula lectus. Mauris sed ex ac ipsum ultrices bibendum at id tortor. Aenean dictum magna ac nisi posuere euismod. Ut fermentum, nulla quis venenatis varius, risus nulla dictum felis, ut dictum eros libero vitae justo.&lt;/p&gt;
-
-&lt;p&gt;Integer aliquam tellus vel libero eleifend, condimentum euismod odio tincidunt. Vivamus felis ante, faucibus quis urna nec, volutpat pulvinar quam. Cras dictum libero ac augue bibendum, et pretium ex pharetra. Vivamus suscipit et erat id eleifend. Proin vulputate, quam sit amet pretium fermentum, felis neque scelerisque metus, a rhoncus quam nisi sit amet urna. Sed et commodo libero, laoreet rutrum eros. Vivamus tempor, leo eget scelerisque molestie, sapien augue viverra tortor, et semper arcu eros ut elit. Sed pulvinar ipsum in semper facilisis.&lt;/p&gt;
-</description>
-				<pubDate>Sat, 22 Jun 2013 16:25:06 -0700</pubDate>
-				<link>http://localhost:4000/2013/06/Cum-sociis-natoque-penatibus</link>
-				<guid isPermaLink="true">http://localhost:4000/2013/06/Cum-sociis-natoque-penatibus</guid>
 			</item>
 		
 	</channel>
