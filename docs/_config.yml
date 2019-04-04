@@ -1,1 +1,9 @@
 theme: jekyll-theme-slate
+
+title: Plain small summary~
+description: Welcome
+
+#show_downloads: ["true" or "false" to indicate whether to provide a download URL]
+show_downloads: "true"
+#google_analytics: [Your Google Analytics tracking ID]
+google_analytics: 'lakjnhhsudnbjhfasdf'
