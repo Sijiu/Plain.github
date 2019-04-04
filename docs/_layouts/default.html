@@ -9,7 +9,13 @@
 
 {% seo %}
   </head>
-
+<style>
+  .inner{
+    width: 1000px;
+  }
+  h2{color: #0a1640
+  }
+</style>
   <body>
 
     <!-- HEADER -->
@@ -33,7 +39,7 @@
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
+      <section id="main_content" class="inner" style="width: 1000px">
         {{ content }}
       </section>
     </div>
@@ -45,7 +51,7 @@
         <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
         <!--<p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>-->
-          <p>千里之行，始于足下。</p>
+        <p>千里之行，始于足下。</p>
       </footer>
     </div>
 
