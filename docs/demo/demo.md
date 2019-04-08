@@ -4,7 +4,8 @@
 	
 [实例](https://github.com/tikazyq/crawlab/blob/master/crawlab/bin/run_worker.py#L10#L15)  
 
-## table
+## table 
+##### [参考](https://www.jianshu.com/p/abaff828100d)
 ```markdown
 | 左对齐标题 | 右对齐标题 | 居中对齐标题 |
 |:------|---:|:----:|
