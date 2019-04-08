@@ -1,3 +1,4 @@
+2019-4-8 18:29:19
 ## 关于空格(http://www.cnblogs.com/52cik/p/js-regexp-s.html)
 ```javascript
     const rspace = /[\s\uFEFF\xA0]+/g
